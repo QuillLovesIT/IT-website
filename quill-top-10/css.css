@@ -1,0 +1,178 @@
+*{
+	outline: none;
+}
+
+
+body{
+	background-color: rgb(255, 214, 221);
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-size: 16pt;
+	font-family:'Times New Roman', Times, serif
+}
+
+.quote{
+	background-color: rgb(255, 214, 221);
+	color: black;
+	font-style: italic;
+	font-size: 50pt;
+	padding: 1px;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 7px;
+}
+.top-gray{
+	width:100%;
+	height: 12px;
+	background:#333;
+}
+.header{
+	width:1000px;
+	margin: 0 auto;
+}
+.menu{
+	background: red;
+	border:1px solid red;
+	border-radius: 5px; 
+	border: 2px solid #000000;
+	
+}
+.spoiler{
+	color: black;
+	background-color: black;
+	transition-duration: 0.5s;
+}
+
+.spoiler:hover{
+	background-color: rgb(255, 214, 221);
+}
+
+.button{
+	background-color: red;
+	transition-duration: 0.4s;
+	border: #000000;
+	border: 2px solid #000000;
+}
+
+.button:hover{
+	background: #000000;
+}
+
+.bottom-menu{
+	background-color: red;
+	width: 3cm;
+	border: 1px red;
+	border-radius: 5px;
+	padding: 5px;
+	
+	
+}
+
+.bottom-menu a{
+	color: white;
+	padding: 0px;
+	margin: 10px;
+	display: inline-block;
+	list-style: none;
+
+}
+
+.bottom-menu ul{
+	margin: 0 15px;
+	padding: 0;
+}
+.bottom-menu ul li{
+	list-style: none;
+	
+}
+.bottom-menu li:hover{
+	background-color: #000000;
+}
+
+.Fun-Fact{
+	background-color: rgb(20, 173, 215);
+	color: white;
+	font-style: italic;
+	font-weight: 700;
+	padding: 10px;
+	border: 1;
+	border-radius: 5px;
+}
+.menu ul{
+	margin: 0 15px;
+	padding: 0;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px 25px;
+	transition-duration: 0.4s;
+}
+.menu ul li:hover{
+	background: #000000;
+}
+.menu ul li a{
+	color: #fff;
+}
+.big-logo{
+	font-size: 30pt;
+	color:#333;
+	padding: 20px 0;
+	font-weight: bold;
+}
+
+
+.content{
+	width:1000px;
+	margin: 0 auto;
+}
+button,.btn{
+	background: #dd4814;
+	border:1px solid #bf3e11;
+	border-radius: 5px; 
+	padding: 10px 15px;
+	color:white;
+	display: inline-block;
+	margin: 10px 0;
+	font-family: Candara;
+	font-size: 12pt;
+}
+.btn:hover{
+	background: #bf3e11;
+}
+.pull-right{
+	float: right;
+}
+.img-small{
+	max-width: 100px;
+	max-height: 100px;
+}
+.img-mini{
+	max-width: 10px;
+	max-height: 10px;
+}
+table{
+	width: 100%;
+}
+table.data,table.data tr th,table.data tr td{
+	border-collapse: collapse;
+	border: 1px solid #bf3e11;
+}
+table.data tr td{
+	text-align: center;
+}
+input{
+	font-size: 12pt;
+	font-family: Candara;
+	padding: 5px;
+	width: 100%;
+	border:1px solid #999;
+}
+input:hover{
+	border:1px solid #bf3e11;
+}
